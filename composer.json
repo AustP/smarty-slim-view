@@ -1,0 +1,25 @@
+{
+    "name": "austp/smarty-slim-view",
+    "type": "library",
+    "description": "View that allows you to use Smarty with Slim",
+    "keywords": ["smarty", "slim", "view"],
+    "homepage": "https://github.com/AustP/smarty-slim-view",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aust",
+            "email": "austp17@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": ">=2.4.0"
+    },
+    "suggest": {
+        "smarty/smarty": "Smarty"
+    },
+    "autoload": {
+        "psr-4": {
+            "Slim\\View\\": "src"
+        }
+    }
+}
