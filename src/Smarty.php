@@ -73,7 +73,7 @@ class Smarty extends \Slim\View
         $smarty->setErrorReporting(0);
 
         if ($this->plugin_dir) {
-            $smarty->setPluginsDir($this->plugin_dir);
+            $smarty->addPluginsDir($this->plugin_dir);
         }
 
         return $this->smarty = $smarty;
